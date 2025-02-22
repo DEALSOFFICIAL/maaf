@@ -58,14 +58,14 @@ hilang1.addEventListener('click', () => {
   Swal.fire({
     imageUrl: "/assets/img/stiker_mylove.gif",
     imageHeight: 120,
-    title: 'Halo Kenalan Dong, Nama Kamu Siapa ?',
-    html: `<input type="text" id="login" class="swal2-input" placeholder="Nama Kamu">`,
+    title: 'Tolong di baca yah 😁',
+    html: `<input type="text" id="login" class="swal2-input" placeholder="iya / tidak">`,
     confirmButtonText: 'Kirim',
     focusConfirm: false,
     preConfirm: () => {
       const login = Swal.getPopup().querySelector('#login').value
       if (!login) {
-        Swal.showValidationMessage(`Masukin Nama Kamu Dong, Aku Mau Kenalan :(`)
+        Swal.showValidationMessage(`Tolong di baca yah 😁 :(`)
       }
       return { login }
     }
@@ -73,7 +73,7 @@ hilang1.addEventListener('click', () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0)
-    let txt = `Halo, Nama kamu ${result.value.login}, Nama kamu berawal dari huruf ${namaAwal.toUpperCase()}, ${pesan}`;
+    let txt = `OH YAH , ${pesan}`;
 
     const typeWriter = () => {
       if (i < txt.length) {
