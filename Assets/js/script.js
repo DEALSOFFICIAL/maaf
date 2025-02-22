@@ -29,10 +29,10 @@ hari.innerHTML = `${dayID()}, ${tgl} ${monthID()} ${year}`
 jam.innerHTML = `${hour}:${minutes}`
 
 // Dirubah 
-const pengirim = "Cikal";
-const nomorWa = "6289668068213" // awalan nomor 0 harus di awalin 62
-const textWa = "Ah bisa aja kamu"
-const pesan = `Pada akhirnya kita berdua menjadi dua orang penjahat: Kamu yang dengan hebatnya bisa mencuri hatiku, begitu juga aku yang berhasil mencuri hatimu`;
+const pengirim = "AGI";
+const nomorWa = "6288210553213" // awalan nomor 0 harus di awalin 62
+const textWa = "JADI DI MAAFIN / GA ??"
+const pesan = `MAKASIH KALAU UDAH MAAFIN GUA / GA DI MAAFIN GPP EMANG AKU SALAH , AKU MINTA MAAF`;
 
 if (pengirim) {
   nama.innerHTML = pengirim;
